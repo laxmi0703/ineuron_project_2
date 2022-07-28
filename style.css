@@ -13,11 +13,8 @@ body, html {
 
 .container{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/pexels-maxyne-barcel-10402282\ 1.png");
-  height: 145%;
-  background-position:center;
-  background-repeat: no-repeat;
+  height: 100vh;
   background-size:cover;
-  position: relative;
 }
 
 /* ------------------------------ */
@@ -47,7 +44,7 @@ body, html {
   display: inline-block;
   padding: 10px 25px;
   color: white;
-  background-color: red;
+  background-color: #ff505f;
   text-align: center;
   cursor: pointer;
   
@@ -60,16 +57,15 @@ body, html {
 
 .hero {
   text-align: center;
-  top: 23%;
-  left: 10%;
-  right: 10%;
-  position: absolute;
+  margin: 5%;
+  /* position: absolute; */
 }
 
 .hero .hero-heading {
-  font-size: 104px;
+  font-size: 8rem;
   color: yellow;
   line-height: 95%;
+  margin: 1% ;
 }
 
 .hero .button-large {
@@ -80,7 +76,13 @@ body, html {
   margin: 25px;
   padding: 25px 25px;
   color: white;
-  background-color: red;
+  background-color: #ff505f;
   text-align: center;
   cursor: pointer;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
 }
